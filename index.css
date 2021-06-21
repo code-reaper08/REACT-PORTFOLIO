@@ -1,0 +1,38 @@
+body{
+background-color: #f8f9fa;
+}
+h1{
+  text-align: center;
+  color: darkcyan;}
+.sub{
+  color: rgb(56, 58, 58);
+  text-align: center;
+}
+.Mid{
+  color: bisque;
+  text-align: justify;
+}
+.Flogo{
+  height: 80px;
+  width : 80px;
+}
+footer {
+  text-align: center;
+}
+h5 {
+  color: bisque;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+.brandlogo{
+  height: 40px;
+  width: 40px;
+}
+#Myname{
+  transition: ease-in-out 1s;
+}
+#Myname:hover{
+ font-size: 60px;
+}
