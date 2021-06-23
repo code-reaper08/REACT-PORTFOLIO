@@ -40,7 +40,7 @@ const Header = () => {
   </div>
 </nav>
             <h1 id="Myname" onMouseOver = {onmouseover}  className="display-1">Vishwa.R</h1>
-            <p className="sub">a.k.a <span className="h6">code-reaper08</span></p>
+            <p className="sub">a.k.a <span className="h6"><a id="githublink" href="https://github.com/code-reaper08" target="_blank" >code-reaper08</a></span></p>
         </header>
     )
 }

@@ -9,8 +9,11 @@ h1{
   text-align: center;
 }
 .Mid{
-  color: bisque;
+  color: darkslategray;
   text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 .Flogo{
   height: 80px;
@@ -32,7 +35,13 @@ h5 {
 }
 #Myname{
   transition: ease-in-out 1s;
+  font-size: 60px;
+  font-family: 'Teko', sans-serif;
 }
 #Myname:hover{
- font-size: 60px;
+ font-size: 80px;
+}
+#githublink{
+  text-decoration: none;
+  color: #333;
 }
