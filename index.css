@@ -8,11 +8,11 @@ h1{
   color: rgb(56, 58, 58);
   text-align: center;
 }
-.Mid{
+#mid{
   color: darkslategray;
   text-align: justify;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-family: 'Roboto', sans-serif;
 }
 .Flogo{
@@ -44,4 +44,9 @@ h5 {
 #githublink{
   text-decoration: none;
   color: #333;
+}
+#cllglink{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
 }
