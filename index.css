@@ -11,8 +11,8 @@ h1{
 #mid{
   color: darkslategray;
   text-align: justify;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   font-family: 'Roboto', sans-serif;
 }
 .Flogo{
@@ -23,7 +23,9 @@ footer {
   text-align: center;
 }
 h5 {
-  color: bisque;
+  color: rgb(0, 0, 0);
+  font-size: smaller;
+  font-family: 'Courier New', Courier, monospace;
 }
 .topnav {
   background-color: #333;

@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer>
             
-            <h5>Copyright @ 2021</h5>
+            <h5>Made with &#10084; by code-reaper08</h5>
         </footer>
     )
 }
