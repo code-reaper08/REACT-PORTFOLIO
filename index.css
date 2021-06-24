@@ -14,6 +14,9 @@ h1{
   padding-left: 15px;
   padding-right: 15px;
   font-family: 'Roboto', sans-serif;
+  /* border: 30px solid pink;
+  height: 40vh;
+  border-image: url("./assets/bord.png") 30; */
 }
 .Flogo{
   height: 80px;
@@ -42,6 +45,8 @@ h5 {
 }
 #Myname:hover{
  font-size: 80px;
+ color: black;
+ text-shadow: 2px 2px 8px lightgray;
 }
 #githublink{
   text-decoration: none;
@@ -51,4 +56,14 @@ h5 {
   text-decoration: none;
   color: black;
   font-weight: bolder;
+}
+#avatar{
+ text-align: center;
+}
+#avatarimg{
+  width: 200px;
+  height:auto;
+  border: 5px solid #333;
+  border-radius: 50%;
+  padding: 5px 5px;
 }
