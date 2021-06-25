@@ -2,6 +2,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Socials from "./components/Socials";
 import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
        <Route path="/socials" exact component={() => <Socials />} />
        <Route path="/Skills" exact component={() => <Skills />} />
        </Switch>
+       <Footer />
      </Router>
     </div>
   );

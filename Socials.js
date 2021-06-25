@@ -1,12 +1,19 @@
 import React from 'react'
+import glogo from '../assets/github.png'
+import llogo from '../assets/linkedin.png'
 
 const Socials = () => {
     return (
-        <div>
-           <p>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, tempora harum. Nemo aspernatur saepe maiores, voluptas quidem accusantium! Quis hic ipsam id ducimus aliquid optio corporis minus, earum eaque accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates doloremque illo a velit, rerum porro sint harum, earum praesentium aperiam sapiente unde quisquam reprehenderit esse inventore odit quis molestias! Repellat!
-           </p>
-        </div>
+        <div id="wrap" className="container">
+  <div className="row">
+    <div id="colu2" className="col">
+      <a href="https://github.com/code-reaper08"><img className="socialicon" src={glogo} alt="githublogo" /></a>
+    </div>
+    <div id="colu1" class="col">
+      <a href="https://linkedin.com/in/vishwa08/"><img className="socialicon" src={llogo} alt="linkedinlogo" /></a>
+    </div>
+  </div>
+</div>
     )
 }
 
